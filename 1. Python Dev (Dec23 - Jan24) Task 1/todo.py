@@ -34,11 +34,11 @@ def view():
 	if fl1:
 		print("Unfinished Tasks: ")
 		for x in fl1:
-			print(x)
+			print(f"{x[0]}. {x[1]}")
 	if fl2:
 		print("Finished Tasks: ")
 		for x in fl2:
-			print(x)
+			print(f"{x[0]}. {x[1]}")
 	f.close()
 
 
